@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LUNE BEAUTÉ 美妆商城首页" />
+    <title>LUNE BEAUTÉ｜唤醒肌肤光泽</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23632937'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Georgia' fill='%23f5f0e8'%3EL%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <aside class="student-info" aria-label="作业信息">
+      <span>姓名：________</span><span>准考证号：________</span
+      ><span>课程代码：________</span><span>课程名称：________</span>
+    </aside>
+
+    <header class="site-header">
+      <button class="menu-button" type="button" aria-label="打开菜单">
+        <i></i><i></i>
+      </button>
+      <a class="logo" href="index.html">LUNE <em>BEAUTÉ</em></a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a class="active" href="index.html">首页</a><a href="#skincare">护肤</a
+        ><a href="#makeup">彩妆</a><a href="#fragrance">香氛</a
+        ><a href="detail.html">臻选礼遇</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" aria-label="搜索">⌕</button
+        ><button class="bag-button" type="button" aria-label="购物袋">
+          购物袋 <span class="bag-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-image">
+          <div class="moon"></div>
+          <img src="assets/images/serum.svg" alt="月光焕亮精华液" />
+          <span class="vertical-word">LUMINOUS</span>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">NEW · LUMIÈRE COLLECTION</p>
+          <h1>让肌肤<br />自带<span>月光</span></h1>
+          <p>
+            从植物与月相中汲取灵感，以温和配方唤醒肌肤自然光泽。每一次护理，都是属于自己的安静仪式。
+          </p>
+          <a class="line-button" href="detail.html"
+            >探索月光系列 <span>↗</span></a
+          >
+        </div>
+        <div class="hero-index"><b>01</b><span></span><small>03</small></div>
+      </section>
+
+      <section class="promise-strip" aria-label="品牌特点">
+        <span>植物精萃</span><i>✦</i><span>温和配方</span><i>✦</i
+        ><span>纯净美学</span><i>✦</i><span>可持续包装</span>
+      </section>
+
+      <section id="skincare" class="category-section section-space">
+        <div class="section-title">
+          <p>THE RITUAL</p>
+          <h2>为每一种肌肤状态，<br />找到恰到好处的答案。</h2>
+        </div>
+        <div class="category-grid">
+          <a class="category-card rose" href="#products"
+            ><span>01</span>
+            <div>
+              <h3>护肤</h3>
+              <p>精华 / 面霜 / 清洁</p>
+            </div>
+            <b>→</b></a
+          >
+          <a id="makeup" class="category-card nude" href="#products"
+            ><span>02</span>
+            <div>
+              <h3>彩妆</h3>
+              <p>唇妆 / 底妆 / 眼妆</p>
+            </div>
+            <b>→</b></a
+          >
+          <a id="fragrance" class="category-card dark" href="#products"
+            ><span>03</span>
+            <div>
+              <h3>香氛</h3>
+              <p>香水 / 身体 / 家居</p>
+            </div>
+            <b>→</b></a
+          >
+        </div>
+      </section>
+
+      <section id="products" class="product-section section-space">
+        <div class="product-top">
+          <div class="section-title">
+            <p>BEST SELLERS</p>
+            <h2>值得一再回购</h2>
+          </div>
+          <form class="search-form" role="search">
+            <label class="sr-only" for="beauty-search">搜索商品</label
+            ><input
+              id="beauty-search"
+              type="search"
+              placeholder="输入商品名称"
+            /><button type="submit">搜索</button>
+          </form>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-name="月光焕亮精华 精华液 护肤">
+            <a class="product-visual blush" href="detail.html"
+              ><span class="product-label">NO.01</span
+              ><img src="assets/images/serum.svg" alt="月光焕亮精华液"
+            /></a>
+            <div class="product-info">
+              <p>焕亮 · 修护</p>
+              <h3><a href="detail.html">月光焕亮精华</a></h3>
+              <div>
+                <strong>¥328</strong
+                ><button class="add-bag" type="button">加入</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-name="柔雾丝绒唇膏 口红 彩妆">
+            <a class="product-visual sand" href="detail.html"
+              ><span class="product-label">NO.02</span
+              ><img src="assets/images/lipstick.svg" alt="柔雾丝绒唇膏"
+            /></a>
+            <div class="product-info">
+              <p>显色 · 柔润</p>
+              <h3><a href="detail.html">柔雾丝绒唇膏</a></h3>
+              <div>
+                <strong>¥198</strong
+                ><button class="add-bag" type="button">加入</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-name="午夜玫瑰香水 香氛 玫瑰">
+            <a class="product-visual wine" href="detail.html"
+              ><span class="product-label light">NO.03</span
+              ><img src="assets/images/perfume.svg" alt="午夜玫瑰香水"
+            /></a>
+            <div class="product-info">
+              <p>玫瑰 · 木质</p>
+              <h3><a href="detail.html">午夜玫瑰香水</a></h3>
+              <div>
+                <strong>¥468</strong
+                ><button class="add-bag" type="button">加入</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-name="云感修护面霜 护肤 保湿">
+            <a class="product-visual sage" href="detail.html"
+              ><span class="product-label">NO.04</span
+              ><img src="assets/images/cream.svg" alt="云感修护面霜"
+            /></a>
+            <div class="product-info">
+              <p>保湿 · 舒缓</p>
+              <h3><a href="detail.html">云感修护面霜</a></h3>
+              <div>
+                <strong>¥268</strong
+                ><button class="add-bag" type="button">加入</button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="empty-state" hidden>暂时没有找到相关商品。</p>
+      </section>
+
+      <section class="story-section">
+        <div class="story-copy">
+          <p class="eyebrow">OUR PHILOSOPHY</p>
+          <h2>少一点修饰，<br />多一点真实。</h2>
+          <p>
+            我们相信，美不是被覆盖，而是被看见。LUNE BEAUTÉ
+            以精简有效的配方、克制舒适的香气和可持续包装，让日常护理重新回到肌肤本身。
+          </p>
+          <a class="line-button light" href="detail.html"
+            >了解品牌理念 <span>↗</span></a
+          >
+        </div>
+        <div class="story-art">
+          <div class="arch">
+            <img src="assets/images/perfume.svg" alt="品牌香氛产品" />
+          </div>
+          <span>BEAUTY IN STILLNESS</span>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <p>订阅 LUNE LETTER</p>
+        <h2>第一时间收到新品与灵感</h2>
+        <form>
+          <label class="sr-only" for="email">电子邮箱</label
+          ><input id="email" type="email" placeholder="你的电子邮箱" /><button
+            type="submit"
+          >
+            订阅
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="logo footer-logo" href="index.html">LUNE <em>BEAUTÉ</em></a>
+      <nav>
+        <a href="#skincare">护肤</a><a href="#makeup">彩妆</a
+        ><a href="#fragrance">香氛</a><a href="detail.html">品牌故事</a>
+      </nav>
+      <p>© 2026 LUNE BEAUTÉ</p>
+    </footer>
+    <div class="toast" role="status" aria-live="polite">商品已加入购物袋</div>
+  </body>
+</html>

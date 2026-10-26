@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="月光焕亮精华商品详情" />
+    <title>月光焕亮精华｜LUNE BEAUTÉ</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23632937'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Georgia' fill='%23f5f0e8'%3EL%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <aside class="student-info" aria-label="作业信息">
+      <span>姓名：________</span><span>准考证号：________</span
+      ><span>课程代码：________</span><span>课程名称：________</span>
+    </aside>
+    <header class="site-header">
+      <button class="menu-button" type="button" aria-label="打开菜单">
+        <i></i><i></i>
+      </button>
+      <a class="logo" href="index.html">LUNE <em>BEAUTÉ</em></a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a href="index.html">首页</a
+        ><a class="active" href="index.html#skincare">护肤</a
+        ><a href="index.html#makeup">彩妆</a
+        ><a href="index.html#fragrance">香氛</a
+        ><a href="detail.html">臻选礼遇</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" aria-label="搜索">⌕</button
+        ><button class="bag-button" type="button">
+          购物袋 <span class="bag-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="detail-page">
+      <nav class="breadcrumb" aria-label="面包屑导航">
+        <a href="index.html">首页</a><span>/</span
+        ><a href="index.html#skincare">护肤</a><span>/</span><b>精华</b>
+      </nav>
+      <section class="detail-layout">
+        <div class="detail-visual">
+          <span class="detail-number">01 / 04</span>
+          <div class="detail-moon"></div>
+          <img
+            id="beauty-detail-image"
+            src="assets/images/serum.svg"
+            alt="月光焕亮精华液"
+          />
+          <p>LUMIÈRE<br />SERUM</p>
+        </div>
+        <div class="detail-content">
+          <p class="eyebrow">LUMIÈRE COLLECTION</p>
+          <h1>月光焕亮<br />精华</h1>
+          <p class="english-name">Lumière Radiance Serum</p>
+          <div class="review">
+            <span>★★★★★</span><b>4.9</b><small>来自 286 条真实评价</small>
+          </div>
+          <p class="detail-summary">
+            轻盈水感精华融合烟酰胺、白睡莲精粹与透明质酸，帮助改善暗沉与干燥，让肌肤呈现柔和、通透的自然光泽。
+          </p>
+          <div class="detail-price">
+            <strong>¥328</strong><span>30 ml</span>
+          </div>
+          <div class="size-options">
+            <p>选择规格</p>
+            <button class="selected" type="button">30 ml</button
+            ><button type="button">50 ml</button
+            ><button type="button">补充装 30 ml</button>
+          </div>
+          <div class="purchase">
+            <div class="quantity">
+              <button type="button" data-action="minus">−</button
+              ><input
+                id="quantity"
+                type="number"
+                value="1"
+                min="1"
+                max="9"
+                aria-label="数量"
+              /><button type="button" data-action="plus">＋</button>
+            </div>
+            <button class="purchase-button add-bag" type="button">
+              加入购物袋
+            </button>
+          </div>
+          <div class="accordions">
+            <details open>
+              <summary>产品功效 <span>＋</span></summary>
+              <p>
+                改善暗沉、补充水分、细腻肤感，适合希望提升肌肤通透度与光泽感的人群。
+              </p>
+            </details>
+            <details>
+              <summary>使用方法 <span>＋</span></summary>
+              <p>
+                早晚洁面及化妆水后，取 2—3
+                滴均匀涂抹面部与颈部，轻柔按摩至吸收。
+              </p>
+            </details>
+            <details>
+              <summary>核心成分 <span>＋</span></summary>
+              <p>5% 烟酰胺、白睡莲精粹、多重透明质酸、角鲨烷。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="ingredient-section">
+        <div>
+          <p class="eyebrow">KEY INGREDIENTS</p>
+          <h2>三重焕亮能量</h2>
+        </div>
+        <div class="ingredient-grid">
+          <article>
+            <span>01</span>
+            <h3>烟酰胺</h3>
+            <p>帮助改善肤色不均，提升肌肤细腻度。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>白睡莲</h3>
+            <p>舒缓干燥不适，带来柔和清新的护理感受。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>透明质酸</h3>
+            <p>层层补水并锁住水分，令肌肤饱满柔润。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="logo footer-logo" href="index.html">LUNE <em>BEAUTÉ</em></a>
+      <nav>
+        <a href="index.html#skincare">护肤</a
+        ><a href="index.html#makeup">彩妆</a
+        ><a href="index.html#fragrance">香氛</a
+        ><a href="detail.html">品牌故事</a>
+      </nav>
+      <p>© 2026 LUNE BEAUTÉ</p>
+    </footer>
+    <div class="toast" role="status" aria-live="polite">商品已加入购物袋</div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650">
+  <ellipse cx="250" cy="562" rx="165" ry="28" fill="#23312b" opacity=".18"/>
+  <path d="M106 282h288l-23 230q-5 53-58 53H187q-53 0-58-53z" fill="#e8e3d8" stroke="#28342f" stroke-width="8"/>
+  <path d="M94 221q0-24 24-24h264q24 0 24 24v73H94z" fill="#899b8d" stroke="#28342f" stroke-width="8"/>
+  <rect x="112" y="230" width="276" height="40" fill="#b9c6bb"/>
+  <rect x="162" y="344" width="176" height="139" fill="#f6f1e8"/>
+  <text x="250" y="390" text-anchor="middle" font-family="Georgia" font-size="25" fill="#28342f">LUNE</text>
+  <text x="250" y="419" text-anchor="middle" font-family="Georgia" font-size="12" letter-spacing="4" fill="#28342f">BEAUTÉ</text>
+  <path d="M214 452q36-46 72 0-36 26-72 0" fill="none" stroke="#718978" stroke-width="4"/>
+  <path d="M121 294h258" stroke="#c2aa76" stroke-width="6"/>
+</svg>

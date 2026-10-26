@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650">
+  <ellipse cx="250" cy="605" rx="112" ry="23" fill="#3a2025" opacity=".16"/>
+  <rect x="180" y="300" width="140" height="285" rx="8" fill="#201b1c"/>
+  <rect x="197" y="320" width="106" height="245" fill="#c5a567"/>
+  <rect x="207" y="243" width="86" height="100" fill="#201b1c"/>
+  <path d="M211 249V93q0-38 26-55l52-30v241z" fill="#993f50" stroke="#2b2022" stroke-width="7"/>
+  <path d="M215 90q33-9 70-76" fill="none" stroke="#d47b8b" stroke-width="8" opacity=".6"/>
+  <text x="250" y="424" text-anchor="middle" transform="rotate(-90 250 424)" font-family="Georgia" font-size="22" letter-spacing="5" fill="#201b1c">LUNE</text>
+</svg>
